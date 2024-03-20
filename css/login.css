@@ -1,0 +1,345 @@
+/* 기본 스타일 */
+.sub {
+  word-break: keep-all;
+}
+input,
+select {
+  border: 1px solid #c5c5c5;
+  width: -webkit-fill-available;
+  height: 50px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+select {
+  vertical-align: bottom;
+}
+.member_box input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  margin: 0;
+  margin-top: -2px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+/* login */
+.member_box {
+  max-width: 460px;
+  margin: 0 auto;
+  padding: 80px 70px 95px;
+  text-align: center;
+  background: #fff;
+}
+.member_logo {
+  text-align: left;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #c5c5c5;
+}
+.member_logo img {
+  max-width: 200px;
+}
+.member_title {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 35px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.member_title img {
+  max-height: 38px;
+  margin-top: 5px;
+  margin-right: 12px;
+}
+.member_box .input_area input {
+  margin-bottom: 10px;
+  padding-left: 40px;
+  background-image: url(/images/member/ico_id.png);
+  background-repeat: no-repeat;
+  background-size: 13px;
+  background-position: left 15px center;
+}
+.member_box .input_area input:last-child {
+  background-image: url(/images/member/ico_pw.png);
+}
+.member_box .flexBox {
+  margin-bottom: 30px;
+}
+.member_other a:nth-child(2)::before {
+  content: "";
+  display: inline-block;
+  margin: 0 10px;
+  width: 1px;
+  height: 12px;
+  background: #dcdcdc;
+}
+.Aouth_area {
+  text-align: center;
+  overflow: hidden;
+}
+.ori_member,
+.naver_member,
+.kakao_member {
+  display: inline-block;
+  width: 100%;
+  max-width: 460px;
+  height: 50px;
+  border-radius: 10px;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+}
+.ori_member {
+  margin-bottom: 25px;
+  background: #22cacb;
+}
+.naver_member {
+  margin-bottom: 10px;
+  background: #03c75a;
+}
+.naver_member img {
+  width: 20px;
+}
+.kakao_member {
+  background: #fae300;
+  color: #391b1b;
+}
+.kakao_member img {
+  width: 29px;
+}
+.Aouth_area a img {
+  margin-right: 10px;
+  vertical-align: sub;
+}
+.member_policy_area {
+  display: inline-block;
+  width: 100%;
+  margin: 100px 0 13px 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #c5c5c5;
+  font-size: 15px;
+  color: #000;
+}
+.member_policy_area .bar {
+  height: 12px;
+  background-color: #000;
+}
+.member_Copyrights {
+  font-size: 14px;
+  color: #959595;
+}
+
+/* search */
+.search_box .member_logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.search_box .member_btn {
+  height: fit-content;
+}
+.search_box .member_btn a {
+  display: block;
+  width: 85px;
+  height: 30px;
+  box-sizing: border-box;
+  padding-left: 33px;
+  font-size: 14px;
+  line-height: 26px;
+  background-image: url(/images/member/btn_login.png);
+  background-size: 15px;
+  background-position: left 10px center;
+  background-repeat: no-repeat;
+  border: 1px solid #c5c5c5;
+}
+.search_box .member_btn a:hover {
+  border: 1px solid #22cacb;
+  background-color: #22cacb;
+  color: #fff;
+  background-image: url(/images/member/btn_login_w.png);
+}
+.search_text {
+  margin-bottom: 45px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #757575;
+}
+.search_box form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.search_box .input_area {
+  position: relative;
+}
+.search_box .input_area input {
+  padding-left: 48px;
+  background-image: url(/images/member/ico_email.png);
+  background-size: 22px;
+}
+.search_box .input_area .secure_input {
+  height: 60px;
+  padding-left: 15px;
+  background-image: none;
+}
+.secureimg {
+  height: 60px;
+  box-sizing: border-box;
+  border: 1px solid #c5c5c5;
+  overflow: hidden;
+}
+.secureimg img,
+.securebtn img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.securebtn {
+  position: absolute;
+  display: flex;
+  top: 78px;
+  right: 15px;
+}
+.securebtn p {
+  cursor: pointer;
+}
+.sb01 {
+  width: 27px;
+  margin-right: 15px;
+}
+.sb02 {
+  width: 20px;
+}
+.search_info {
+  margin-bottom: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.search_box .ori_member {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  /* 1280px - join */
+} /* 1280px 마지막 */
+
+@media screen and (max-width: 768px) {
+  /* 768px - 기본 스타일 */
+  input,
+  select {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  input[type="checkbox"] {
+    width: 13px;
+    height: 13px;
+    margin-top: -3px;
+  }
+
+  /* 768px - login */
+  .member_box {
+    max-width: 360px;
+    padding: 50px 40px 65px;
+  }
+  .member_logo {
+    padding-bottom: 10px;
+  }
+  .member_logo img {
+    max-width: 150px;
+  }
+  .member_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+  .member_title img {
+    max-height: 25px;
+    margin-right: 10px;
+  }
+  .member_box .input_area input {
+    padding-left: 35px;
+    background-size: 11px;
+    background-position: left 15px center;
+  }
+  .member_box .flexBox {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .ori_member,
+  .naver_member,
+  .kakao_member {
+    max-width: 360px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+  }
+  .ori_member {
+    margin-bottom: 18px;
+  }
+  .naver_member {
+    margin-bottom: 8px;
+  }
+  .naver_member img {
+    width: 18px;
+  }
+  .kakao_member img {
+    width: 25px;
+  }
+  .Aouth_area a img {
+    margin-right: 8px;
+  }
+  .member_policy_area {
+    margin: 70px 0 10px 0;
+    padding-bottom: 12px;
+    font-size: 11px;
+  }
+  .member_policy_area .bar {
+    height: 10px;
+  }
+  .member_Copyrights {
+    font-size: 11px;
+  }
+
+  /* 768px - search */
+  .search_box .member_btn a {
+    width: 70px;
+    height: 25px;
+    padding-left: 28px;
+    font-size: 12px;
+    line-height: 22px;
+    background-size: 13px;
+  }
+  .search_text {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .search_box .input_area input {
+    padding-left: 44px;
+    background-size: 19px;
+  }
+  .search_box .input_area .secure_input {
+    height: 50px;
+  }
+  .secureimg {
+    height: 50px;
+  }
+  .securebtn {
+    top: 62px;
+  }
+  .sb01 {
+    width: 22px;
+    margin-right: 12px;
+  }
+  .sb02 {
+    width: 15px;
+  }
+  .search_info {
+    margin-bottom: 30px;
+    font-size: 13px;
+    line-height: 25px;
+  }
+}
