@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원정보찾기</title>
+    <link rel="preconnect" href="http://fonts.googleapis.com" />
+    <link rel="preconnect" href="http://fonts.googleapis.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/login.css" />
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/sub.js"></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+  </head>
+  <body style="background-color: #fafafa">
+    <div id="wrap">
+      <div class="sub">
+        <div class="member_box search_box">
+          <div class="member_logo">
+            <img src="/images/member/logo.png" />
+            <div class="member_btn">
+              <a href="#">로그인</a>
+            </div>
+          </div>
+          <div class="member_title">
+            <img src="/images/member/ico_search.png" />회원정보찾기
+          </div>
+          <div class="search_text">
+            회원가입 시 등록하신 이메일 주소를 입력해 주세요.<br />해당 이메일로
+            아이디와 비밀번호 정보를 보내드립니다.
+          </div>
+          <div class="input_area">
+            <form method="post" name="frmmember">
+              <input
+                type="text"
+                name="email"
+                value=""
+                placeholder="이메일 주소를 입력해주세요."
+                style="width: 100%"
+              />
+              <div class="secureimg" style="width: 33%">
+                <img src="/images/member/img_secure.png" />
+              </div>
+              <input
+                type="text"
+                name="securetext"
+                style="width: 65%"
+                class="secure_input"
+              />
+              <div class="securebtn">
+                <p class="sb01">
+                  <img src="/images/member/ico_sound.png" />
+                </p>
+                <p class="sb02">
+                  <img src="/images/member/ico_reset.png" />
+                </p>
+              </div>
+            </form>
+          </div>
+          <div class="search_info">
+            자동등록방지 숫자를 순서대로 입력하세요.
+          </div>
+          <div class="Aouth_area">
+            <a href="#" class="ori_member">확인</a>
+          </div>
+          <div class="member_policy_area">
+            <a href="#none" onclick="" class="member_policy">버숑소개</a>
+            <span class="bar"></span>
+            <a href="#none" onclick="" class="member_policy">이용약관</a>
+            <span class="bar"></span>
+            <a href="#none" onclick="" class="member_policy">개인정보처리방침</a>
+            <span class="bar"></span>
+            <a href="#none" onclick="" class="member_policy">사업자정보확인</a>
+          </div>
+          <p class="member_Copyrights">
+            Copyright © 2019-2023 Growth Chain. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
