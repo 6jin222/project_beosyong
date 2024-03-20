@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>마이페이지 출금내역</title>
+    <link rel="preconnect" href="http://fonts.googleapis.com" />
+    <link rel="preconnect" href="http://fonts.googleapis.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/sub.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="/datepiker/jquery-ui.min.css" rel="stylesheet">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/sub.js"></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick/slick.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="/js/jquery.counterup.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/datepiker/jquery-ui.min.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <div class="popup_bg"></div>
+        <article id="top_banner">
+            <div class="top_slider topBn_mo">
+              <div><img src="/images/header/bnTop.png" alt="상단 슬라이드01" /></div>
+              <div>
+                <img src="/images/header/bnTop.png" alt="상단 슬라이드02" />
+              </div>
+              <div>
+                <img src="/images/header/bnTop.png" alt="상단 슬라이드03" />
+              </div>
+            </div>
+            <div class="top_slider topBn_pc">
+              <img src="/images/header/bnTop_pc.png" alt="상단 슬라이드01" />
+              <img src="/images/header/bnTop_pc.png" alt="상단 슬라이드02" />
+              <img src="/images/header/bnTop_pc.png" alt="상단 슬라이드03" />
+            </div>
+            <a href="#"><div class="topBn_colse"></div></a>
+        </article>
+        <header id="header">
+          <div id="h_in">
+            <div class="member mo">
+              <ul>
+                <li class="m_list m1">
+                  <a href="#"><p>레벨테스트</p></a>
+                </li>
+                <li class="m_list m2">
+                  <a href="#"><p>로그인</p></a>
+                </li>
+                <li class="m_list m3">
+                  <a href="#"><p>회원가입</p></a>
+                </li>
+              </ul>
+            </div>
+            <div class="h_main">
+              <h1 class="logo">
+                <a href="#"><img src="/images/header/logo.png" alt="로고" /></a>
+              </h1>
+              <div class="gnb_btn"><a href="#"></a></div>
+              <div class="member pc">
+                <ul>
+                  <a href="#"></a><li class="m_list m1">
+                    <p>레벨테스트</p>
+                  </li></a>
+                  <a href="#"></a><li class="m_list m2">
+                    <p>로그인</p>
+                  </li></a>
+                  <a href="#"></a><li class="m_list m3">
+                   <p>회원가입</p>
+                  </li></a>
+                </ul>
+              </div>
+              <nav class="gnb_pc">
+                <ul>
+                  <li>
+                    <a href="#">서비스</a>
+                    <ul class="subGnb">
+                      <li>
+                        <a href="#">서비스안내</a>
+                      </li>
+                      <li>
+                        <a href="#">수강생리뷰</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">에듀</a>
+                    <ul class="subGnb">
+                      <li>
+                        <a href="#">온라인영상관</a>
+                      </li>
+                      <li>
+                        <a href="#">교육자료실</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">캠페인</a>
+                    <ul class="subGnb">
+                      <li>
+                        <a href="#">참여가이드</a>
+                      </li>
+                      <li>
+                        <a href="#">실습캠페인</a>
+                      </li>
+                      <li>
+                        <a href="#">무료체험</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">공지</a>
+                    <ul class="subGnb">
+                      <li>
+                        <a href="#">공지사항</a>
+                      </li>
+                      <li>
+                        <a href="#">FAQ</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+              <div class="menu_mo">
+                <h1 class="logo">
+                  <a href="#"><img src="/images/header/logo.png" alt="로고" /></a>
+                </h1>
+                <p class="gnb_close"><a href="#"></a></p>
+                <div class="member">
+                  <ul>
+                    <li class="m_list m1">
+                      <a href="#"><p>레벨테스트</p></a>
+                    </li>
+                    <li class="m_list m2">
+                      <a href="#"><p>로그인</p></a>
+                    </li>
+                    <li class="m_list m3">
+                      <a href="#"><p>회원가입</p></a>
+                    </li>
+                  </ul>
+                </div>
+                <nav class="gnb_mo">
+                  <ul>
+                    <li>
+                      <a href="#">서비스</a>
+                      <ul class="subGnb">
+                        <li>
+                          <a href="#">서비스안내</a>
+                        </li>
+                        <li>
+                          <a href="#">수강생리뷰</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">에듀</a>
+                      <ul class="subGnb">
+                        <li>
+                          <a href="#">온라인영상관</a>
+                        </li>
+                        <li>
+                          <a href="#">교육자료실</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">캠페인</a>
+                      <ul class="subGnb">
+                        <li>
+                          <a href="#">참여가이드</a>
+                        </li>
+                        <li>
+                          <a href="#">실습캠페인</a>
+                        </li>
+                        <li>
+                          <a href="#">무료체험</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">공지</a>
+                      <ul class="subGnb">
+                        <li>
+                          <a href="#">공지사항</a>
+                        </li>
+                        <li>
+                          <a href="#">FAQ</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </header>
+        <main id="sub" class="mypageDetail wd">
+            <div class="sub_nav">
+                <p>
+                    <img src="/images/mypage/ico_home.png" alt="집이미지">
+                </p>
+                <span class="dot"></span>
+                <p>
+                    마이페이지
+                </p>
+                <span class="dot"></span>
+                <p>
+                    <article class="selectBox2">
+                      <button class="label">출금</button>
+                      <ul class="optionList">
+                        <li><button class="optionItem" type="button">마이페이지 홈</button></li>
+                        <li><button class="optionItem" type="button">후배목록</button></li>
+                        <li><button class="optionItem" type="button">캠페인 내역</button></li>
+                        <li><button class="optionItem" type="button">출금</button></li>
+                        <li><button class="optionItem" type="button">개인정보변경</button></li>
+                      </ul>
+                    </article>
+                </p>
+            </div>
+            <h2 class="sub_title">마이페이지</h2>
+            <div class="sub_menu">
+                <ul>
+                    <li><a href="#">마이페이지 홈</a></li>
+                    <li><a href="#">후배목록</a></li>
+                    <li><a href="#">캠페인 내역</a></li>
+                    <li class="on"><a href="#">출금</a></li>
+                    <li><a href="#">개인정보변경</a></li>
+                </ul>
+            </div>
+            <section class="mypage_box">
+                <div class="detail tab_content">
+                    <div class="board_top">
+                      <div class="title_name">출금내역<br class="pc_none"></div>
+                        <form method="get" name="Search">
+                          <div class="search_area">
+                            <select class="select_search">
+                              <option value="all" selected>전체</option>
+                              <option value="">출금대기</option>
+                              <option value="">출금완료</option>
+                              <option value="">출금보류</option>
+                            </select>
+                            <div class="search_canlender">
+                              <input type="text" placeholder="연도 - 월 - 일" class="datepicker">
+                              <span class="input_bar">-</span>
+                              <input type="text" placeholder="연도 - 월 - 일" class="datepicker">
+                            </div>
+                            <a href="#" class="search_btn"></a>
+                          </div>
+                        </form>                   
+                    </div>
+                    <div class="totalBox">전체 총 포인트 : <span class="color_red">5,300원</span></div>
+                    <div class="board_list">
+                      <div class="board_area">
+                        <table class="board_normal">
+                            <colgroup>
+                                <col width="20%">
+                                <col width="15%">
+                                <col width="*">
+                                <col width="15%">
+                                <col width="20%">
+                            </colgroup>
+                            <tbody>
+                              <tr>
+                                <th>출금신청일</th>
+                                <th>은행</th>
+                                <th>계좌번호</th>
+                                <th>출금액</th>
+                                <th>출금확인</th>
+                              </tr>
+                              <tr class="board_point">
+                                <td>2023-02-13 01:38:50</td>
+                                <td>신한은행</td>
+                                <td>110252577909</td>
+                                <td>150,000</td>
+                                <td>신청완료</td>
+                              </tr>
+                              <tr class="board_point">
+                                <td>2023-02-13 01:38:50</td>
+                                <td>우리은행</td>
+                                <td>110252577909</td>
+                                <td>20,000</td>
+                                <td>신청완료</td>
+                              </tr>
+                              <tr class="board_point">
+                                <td>2023-02-13 01:38:50</td>
+                                <td>신한은행</td>
+                                <td>110252577909</td>
+                                <td>150,000</td>
+                                <td>출금완료</td>
+                              </tr>
+                              <tr class="board_point">
+                                <td>2023-02-13 01:38:50</td>
+                                <td>우리은행</td>
+                                <td>110252577909</td>
+                                <td>20,000</td>
+                                <td>출금완료</td>
+                              </tr>
+                              <tr class="board_point">
+                                <td>2023-02-13 01:38:50</td>
+                                <td>신한은행</td>
+                                <td>110252577909</td>
+                                <td>150,000</td>
+                                <td>출금보류</td>
+                              </tr>
+                              <tr class="board_point">
+                                <td>2023-02-13 01:38:50</td>
+                                <td>우리은행</td>
+                                <td>110252577909</td>
+                                <td>20,000</td>
+                                <td>출금보류</td>
+                              </tr>
+                            </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="pagination">
+                      <ul>
+                        <li><a href="#" class="btn_pre01"></a></li>
+                        <li><a href="#" class="btn_pre02"></a></li>
+                        <div class="btn_page">
+                          <li><a href="#" class="on">1</a></li>
+                          <li><a href="#">2</a></li>
+                          <li><a href="#">3</a></li>
+                          <li><a href="#">4</a></li>
+                          <li><a href="#">5</a></li>
+                        </div>
+                        <li><a href="#" class="btn_next01"></a></li>
+                        <li><a href="#" class="btn_next02"></a></li>
+                      </ul>
+                    </div>
+
+                </div>
+                <div class="coll_btn"><a href="#">출금신청 바로가기</a></div>
+            </section>
+        </main>
+        <footer id="footer">
+            <a id="toTop" href="#"></a>
+            <div class="f_menu">
+              <a href="#">이용약관</a>
+              <span class="bar"></span>
+              <a href="#">개인정보처리방침</a>
+              <span class="bar"></span>
+              <a href="#">사업자정보확인</a>
+            </div>
+            <div class="f_bottom">
+              <div class="f_bottom_in">
+                <div class="f_ars">
+                  <div class="title"><span class="color_mint">상담문의</span></div>
+                  <div class="timetable">
+                    <div class="timetableBox">
+                      <p class="week">월요일~금요일<span>10:00~18:00</span></p>
+                    </div>
+                    <p class="rest">주말, 공휴일 휴무</p>
+                  </div>
+                </div>
+                <div class="f_info">
+                  <div class="cont">
+                    <span class="color_mint">(주)그로스체인</span> 대표: 장인석<br />
+                    사업자등록 번호 : 767-86-01353<br class="pc_none" /><span
+                      class="bar pc_block"
+                    ></span>
+                    통신판매업신고번호 : 제 2019-경기부천-2285호<br />
+                    소재지 : 경기도 부천시 중동로254번길 78,801호<br />
+                    메일 : contact@growthchain.com<br class="pc_none" /><span
+                      class="bar pc_block"
+                    ></span>
+                    전화 : 070-4772-1110<span class="bar"></span>팩스 : 032-326-8887
+                  </div>
+                  <div class="copy">
+                    Copyright © 2019-2023 Growth Chain. All Rights Reserved.
+                  </div>
+                </div>
+                <div class="f_logo">
+                  <img src="images/footer/f_logo.png" alt="하단로고" />
+                </div>
+              </div>
+            </div>
+        </footer>
+    </div>
+  </body>
+</html>
